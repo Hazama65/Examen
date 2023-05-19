@@ -1,0 +1,114 @@
+¿Cuál es la diferencia fundamental entre let y const en JavaScript?
+
+-podria decir que una variable const tiene definido su tipo de variable como text o number , mientras que let es tiene la propiedad de ser any
+
+¿Qué significa que una variable declarada con let sea mutable(que se pueda cambiar su valor)?
+
+-nos da versatilidad de poder usar la misma variable para difeentes ocaciones donde el valor se va modificando
+
+¿Por qué es importante entender la diferencia entre let y const al programar en JavaScript?
+
+-por que podemos generar varios errores al querer usar una varible conts para definir elementos que estan pasando entre textos y numeros 
+
+¿Cuál es el problema principal con el uso de "var" en JavaScript?
+
+-al usar un var no limitamos su uso en el codigo por lo que podemos generar errores de manera global en vez de una sola fraccion de codigo
+
+¿Qué diferencias existen entre var y let/const en términos de ámbito (scope)?
+
+-var no limitamos su scope, let limitamos su ambito de salida al fragmento de codigo, conts limitamos al tipo de varible para la variable
+
+¿Cuáles son los cinco tipos de datos primitivos vistos en el curso de JavaScript?
+
+-String,number,boolean,undefined y no me se otro
+
+¿Cuál es el tipo de dato primitivo que se utiliza para representar un valor verdadero o falso?
+
+-boolean
+
+¿Qué tipo de dato primitivo se utiliza para representar valores que no están definidos o que están ausentes?
+
+-undefined
+
+¿Cómo se define una cadena de texto (String) en JavaScript?
+
+-unicamente consta en escribir en una variable entre comillas "hola" y listo
+
+¿Qué es una función en programación y para qué se utiliza?
+
+-una funcion es aquella que recibe parametros o no , depende hara una accion determinada cuando la funcion sea llamada
+
+¿Cómo se define una función en JavaScript? Proporciona un ejemplo básico(no utilizar function).
+
+-cont funcion = ("algo que se puede llamar") =>{
+    elementos de la funcion
+}
+
+¿Qué es un parámetro en el contexto de las funciones?
+
+-los elementos que trabajan el la variable que necesitan argumento o no para funcionar 
+
+¿Qué es un argumento en el contexto de las funciones?
+
+-los elementos que puede recibir la funcion para poder trabajar con ellos como pueden ser texto o numeros o objetos
+
+¿Cuál es la relación entre los parámetros y los argumentos en una función?
+
+-que para que funcionen los parametros necesitamos de los argumento, pero en ciertas ocaciones no es asi
+
+¿Cuál es la diferencia entre pasar una variable por valor y pasarla por referencia?
+
+-al pasar por medio de valor lo que hacemos es asignarle un valor primitivo como boolean o number pero con una referencia le podemos poner o asignarle un elementos como arrays o objetos
+
+¿Qué es un objeto en el contexto de la programación?
+
+-aque que se esta compuesto de elementos primitivo, y asu vez tambien puede tener objetos dentro
+
+¿Cómo se define un objeto en JavaScript?
+-objeto{
+    elemento1="",
+    elemento2=0
+}
+
+¿Cómo se accede a las propiedades y los métodos de un objeto en JavaScript?
+
+-usando el nombre del elementos y . usando el nombre de la propiedad
+objeto.elemento1
+
+¿Qué es un array en programación y para qué se utiliza?
+
+-es conocido tambien como un diccionario y pose elementos que puenden todos del mismo tipo o mixtos
+
+¿Cómo se define y se crea un array en JavaScript?
+
+-const array=["hola",2,3,5]
+
+¿Cómo se accede a los elementos de un array en JavaScript?
+
+-hay varias formas de hacerlo , si sabemos la posicion de los objeto podemos hacer como array(0); mostrando la primera propiedad,o si se requiere podemos hacer con un ciclo if
+
+¿Cómo se realiza la iteración sobre los elementos de un array en JavaScript?
+
+for(let i=0;i<array.lenth;i++){
+    array[i]
+}
+
+¿Cómo se define una clase en JavaScript?
+
+-con la varibale class, y poniendo los elementos que tiene dicha clase
+
+¿Cómo se crea un objeto a partir de una clase en JavaScript?
+
+-con un contructor
+
+¿Qué es la estructura condicional "if" en programación y para qué se utiliza?
+
+- para poder recorrer elementos hasta la longitud que nosotros le indiquemos
+
+¿Cuál es la importancia de los bloques "else" y "else if" en una estructura condicional "if"?
+
+-que podamos tener diferentes rutas de salida para diferentes acciones
+
+¿Cuál es la diferencia entre los operadores "==" y "===" en una condición "if"?
+
+-== iguala elementos iguales y === convierte ambos elementos a uno mismo para dar la comparacion
